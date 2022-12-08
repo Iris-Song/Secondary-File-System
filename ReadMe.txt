@@ -11,3 +11,17 @@ ReadMe.txt:项目说明
 reports.pdf:实验报告
 star.png:测试图片文件
 注意：ReadMe.txt，reports.pdf，star.png可执行文件相对位置不要随意更改，否则build可能失败。
+
+1. User Instructions
+Compilation generates:
+Navigate to the code folder, use make to build, and generate the UNIX-FILESYS.exe executable file. The generated executable file UNIX-FILESYS is under the code folder. The compilation step can be omitted, and the executable file in the compressed package can be directly used, and the executable file can be run by double-clicking the executable file under the Windows system.
+Operation:
+Type build after clicking on the executable. The build command constructs the initial path, and creates reports.pdf, ReadMe.txt, and star.png files read into the upper directory in the corresponding path.
+Type help to view the commands supported by the system. Type help -command name to view the details of the corresponding command. Enter the corresponding command to operate.
+Please use the exit command to exit the system, do not close it directly.
+2. Description of the files in the compressed package
+code: store the source code, executable file and image file myDisk.img, if run by compiling method, obj folder will be generated under it to store the .o file. The image file can only be generated after running the executable file.
+ReadMe.txt: Project Description
+reports.pdf: experiment report
+star.png: test image file
+Note: Do not change the relative positions of ReadMe.txt, reports.pdf, and star.png executable files at will, otherwise the build may fail.
